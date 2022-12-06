@@ -1,12 +1,11 @@
 import Container from '@mui/material/Container'
-
-import './App.css'
+import Header from './components/Header/Header'
 
 function App() {
     return (
         <>
-            <h1>Здесь будет хедер</h1>
-            <Container maxWidth="lg">
+            <Header />
+            <Container maxWidth="xl" fixed>
                 <h2>Hello world</h2>
             </Container>
         </>

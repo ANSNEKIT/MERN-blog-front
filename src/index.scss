@@ -1,4 +1,11 @@
 
+@font-face {
+  font-family: 'Monomakh Unicode';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), url(./assets/fonts/MonomakhUnicodeTT.woff) format('woff');
+}
+
 body {
   margin: 0;
 
