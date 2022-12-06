@@ -18,6 +18,13 @@ module.exports = {
     },
     plugins: ['react', '@typescript-eslint', 'prettier'],
     rules: {
-        'react/react-in-jsx-scope': 'off'
+        'react/react-in-jsx-scope': 'off',
+        'react/function-component-definition': [
+            2,
+            {
+                namedComponents: ['function-declaration', 'arrow-function'],
+                unnamedComponents: 'arrow-function'
+            }
+        ]
     }
 }
